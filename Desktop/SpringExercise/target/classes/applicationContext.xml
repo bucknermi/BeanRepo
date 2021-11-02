@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <context:component-scan base-package="com.revature"></context:component-scan>
+    
+    <!--  
+    <bean name="InnerService" class="com.revature.services.InnerService">
+    <property name="BackInRepo" ref="BackInRepo"></property> 
+    <property name="FrontInRepo" ref="FrontInRepo"></property>
+    </bean>
+    
+     <bean name="OuterService" class="com.revature.services.OuterService">
+     <property name = "FrontOutRepo" ref="FrontOutRepo"> </property>
+     <property name = "BackOutRepo" ref="BackOutRepo"></property>
+     </bean>
+     
+     <bean name="BackInRepo" class="com.revature.repositories.BackInRepo"></bean>
+     <bean name="FrontInRepo" class="com.revature.repositories.FrontInRepo"></bean>
+     <bean name="FrontOutRepo" class="com.revature.repositories.FrontOutRepo"></bean>
+     <bean name="BackOutRepo" class="com.revature.repositories.BackOutRepo"></bean>
+     -->
+      
+    
+    
+
+ 
+</beans>
